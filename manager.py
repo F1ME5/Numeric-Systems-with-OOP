@@ -33,9 +33,9 @@ class Manager:
         return f"BIN {bin(aux)}\nOCT {oct(aux)}\nDEC {aux}\nHEX {hex(aux)}\n"
 
     def work(self):#The only function allowed to print in console
+        system(CLEAR)
+        
         while True:
-            system(CLEAR)
-
             print(self.guide())
             string = input().lower()
             valid_input = True
