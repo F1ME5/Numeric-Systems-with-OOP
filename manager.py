@@ -17,7 +17,7 @@ class Manager:
         text += ">" * CHAR_REPETITIONS + "\n"
         text += "Type a number following any of these rules.\n\n"
         text += "DECIMAL: from 0 to 9\n"
-        text += f"BINARY ({bin_prefix}): 0 and \n"
+        text += f"BINARY ({bin_prefix}): 0 and 1\n"
         text += f"OCTAL ({oct_prefix}): from 0 to 7\n"
         text += f"HEXADECIMAL ({hex_prefix}): from 0 to 9 and from 'a' to 'f'\n\n"
         text += f"Exit: '{EXIT}'\n"
